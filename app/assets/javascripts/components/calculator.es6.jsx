@@ -70,21 +70,35 @@ class Calculator extends React.Component {
 
   calculateBMI() {
     if (this.state.height.length > 0 && this.state.weight.length > 0) {
-      const calculated_bmi = parseInt(this.state.weight) / (parseInt(this.state.height) * parseInt(this.state.height));
+      const weight = parseFloat(this.state.weight);
+      const height = parseFloat(this.state.height);
+      const calculated_bmi = weight / (height * height);
 
-      this.setStage({
-        bmi: calculated_bmi.toString()
+      this.setState({
+        bmi: calculated_bmi.toFixed(2).toString()
       });
     }
 
     return false;
   }
 
+  getCategory(bmi) {
+    var result = null;
+    for (var i = 0; i < this.state.categories.length; i++) {
+      if (result === null && bmi >= this.state.categories[i].from && bmi <= this.state.categories[i].to) {
+        result = this.state.categories[i];
+      }
+    }
+
+    return result;
+  }
+
   renderBMI() {
     if (this.state.bmi.length > 0) {
+      const category = this.getCategory(parseFloat(this.state.bmi));
       return (
         <div>
-          <b>{this.state.bmi}</b>
+          <b>{category.category}</b> ({this.state.bmi})
         </div>
       );
     } else {
@@ -97,9 +111,9 @@ class Calculator extends React.Component {
   }
 
   handleSubmit(event) {
-    this.calculateBMI();
-
     event.preventDefault();
+
+    this.calculateBMI();
   }
 
   renderForm() {
