@@ -1,4 +1,4 @@
-# Body Mass Index Challenge
+# Body Mass Index Challenge ![Build](https://travis-ci.org/ThomasMarcel/bmi.svg?branch=master "Build")
 
 ## Instructions
 

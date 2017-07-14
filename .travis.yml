@@ -1,0 +1,4 @@
+# Check the validity at http://lint.travis-ci.org/
+language: ruby
+rvm:
+  - 2.3
