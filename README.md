@@ -1,4 +1,4 @@
-# Body Mass Index Challenge ![Build](https://travis-ci.org/ThomasMarcel/bmi.svg?branch=master "Build")
+# [Body Mass Index Challenge](https://bmi-challenge.herokuapp.com) ![Build](https://travis-ci.org/ThomasMarcel/bmi.svg?branch=master "Build")
 
 ## Instructions
 
@@ -18,14 +18,19 @@ Create a web application to calculate the body mass index given the mass and hei
 
 #### Plus 
 * Use Node.js or Ruby on Rails in the backend ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
-* Add tests - TDD/BDD
+* Add tests - TDD/BDD ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
 * Use angular or any other JS framework ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
 * Use a CSS framework ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
+
+#### Plus Plus  
+_Those features weren't asked for but can be relevant to a Full Stack development project_  
+
+* Adding Continuous Integration with Travis CI ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
 
 #### Rules
 * You can use the language of your preferene in the backend ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
 * The code must be uploaded to a github repository ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
-* The application must be deployed to heroku
+* The application must be [deployed to heroku](https://bmi-challenge.herokuapp.com) ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
 * HAVE FUN CODING ! ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
 
 ## App Information
@@ -34,6 +39,7 @@ Create a web application to calculate the body mass index given the mass and hei
 `ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-darwin16]`  
 
 * System dependencies  
+  * [RVM](https://rvm.io/) or any other Ruby version manager is recommended  
 
 * Configuration  
 Configure the database connectors in `config/database.yml`  
@@ -45,10 +51,11 @@ Configure the database connectors in `config/database.yml`
 `$ rails db:mograte`  
 
 * How to run the test suite  
+`$ rake test`  
 
 * Services (job queues, cache servers, search engines, etc.)  
 N/A  
 
 * Deployment instructions  
 
-* ...
+* You can find a workind version on Heroku at [bmi-challenge.herokuapp.com](https://bmi-challenge.herokuapp.com)

@@ -162,7 +162,7 @@ class Calculator extends React.Component {
           <div className="col-md-12">
             {this.renderForm()}
             <p>
-              <i>The weight is in kilograms, and the height in meters</i>
+              <i>The weight is in kilograms, and the height in meters, e.g. 65kg, 1.70m</i>
             </p>
           </div>
         </div>
