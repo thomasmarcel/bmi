@@ -23,10 +23,4 @@ class PagesControllerTest < ActionController::TestCase
     get :home
     assert_response :success
   end
-
-  test "should redirect to login" do
-    sign_out @user
-    get :home
-    assert_response :redirect
-  end
 end
