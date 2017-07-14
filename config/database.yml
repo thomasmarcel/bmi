@@ -23,7 +23,6 @@ test:
 production:
   <<: *default
   adapter: <%= ENV['DB_ADAPTER'] %>
-  encoding: unicode
   host: <%= ENV['DB_HOST'] %>
   database: <%= ENV['DB_DATABASE'] %>
   pool: 5

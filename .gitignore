@@ -24,3 +24,6 @@
 
 # Editor and IDE files
 .*.sw*
+
+# Precompiled assets
+/public/assets
