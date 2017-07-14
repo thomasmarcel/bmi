@@ -98,13 +98,13 @@ class Calculator extends React.Component {
       const category = this.getCategory(parseFloat(this.state.bmi));
       return (
         <div>
-          <b>{category.category}</b> ({this.state.bmi})
+          <h2>{category.category} <span>(index {this.state.bmi})</span></h2>
         </div>
       );
     } else {
       return (
         <div>
-          Fill the form and press calculate
+          <b>Fill the form and press calculate</b>
         </div>
       );
     }
@@ -152,6 +152,7 @@ class Calculator extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
+            <h1>Body Mass Index Calculator</h1>
             <div>
               User: {this.state.user.email}
             </div>
@@ -160,6 +161,13 @@ class Calculator extends React.Component {
         <div className="row">
           <div className="col-md-12">
             {this.renderForm()}
+            <p>
+              <i>The weight is in kilograms, and the height in meters</i>
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-12">
             {this.renderBMI()}
           </div>
         </div>

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Body Mass Index</title>
     <%= csrf_meta_tags %>
 
@@ -40,7 +44,7 @@
                     <%= link_to 'Account', edit_user_registration_path %>
                   </li>
                   <li>
-                    <%= link_to 'Sign Out', destroy_user_session_path %>
+                    <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
                   </li>
                 </ul>
               </li>
@@ -58,9 +62,9 @@
     </nav>
 
     <% if notice %>
-      <p class="alert alert-default"><%= notice %></p>
+      <p class="alert alert-info"><%= notice %></p>
     <% end %>
-    <% if notice %>
+    <% if alert %>
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
 
