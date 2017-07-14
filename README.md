@@ -26,6 +26,7 @@ Create a web application to calculate the body mass index given the mass and hei
 _Those features weren't asked for but can be relevant to a Full Stack development project_  
 
 * Adding Continuous Integration with Travis CI ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
+* Set the project up on my personal AWS EC2 instance with NginX, Passenger, MariaDB and letsencrypt certificates for the subdomain ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
 
 #### Rules
 * You can use the language of your preferene in the backend ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
