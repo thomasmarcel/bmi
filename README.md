@@ -17,10 +17,10 @@ Create a web application to calculate the body mass index given the mass and hei
 * Architecture used
 
 #### Plus 
-* Use Node.js or Ruby on Rails in the backend ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
-* Add tests - TDD/BDD ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
-* Use angular or any other JS framework ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
-* Use a CSS framework ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
+* Use Node.js or Ruby on Rails in the backend __(Ruby on Rails)__ ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
+* Add tests - TDD/BDD __(Some controller and integration tests as a demo)__ ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
+* Use angular or any other JS framework __(React)__ ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
+* Use a CSS framework __(Bootstrap CSS)__ ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
 
 #### Plus Plus  
 _Those features weren't asked for but can be relevant to a Full Stack development project_  
@@ -29,9 +29,11 @@ _Those features weren't asked for but can be relevant to a Full Stack developmen
 
 #### Rules
 * You can use the language of your preferene in the backend ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
-* The code must be uploaded to a github repository ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
+* The code must be uploaded to a [github repository](https://github.com/ThomasMarcel/bmi) ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
 * The application must be [deployed to heroku](https://bmi-challenge.herokuapp.com) ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
-* HAVE FUN CODING ! ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")
+* HAVE FUN CODING ! ![Done](https://upload.wikimedia.org/wikipedia/en/archive/e/e4/20070211135919!Green_tick.png "Done")  
+
+![Nerd Power](https://media.giphy.com/media/MGdfeiKtEiEPS/giphy.gif "Nerd Power")
 
 ## App Information
 
