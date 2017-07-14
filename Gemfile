@@ -55,3 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # User authentication
 gem 'devise', '~> 4.3.0'
+
+# Frontend frameworks
+gem 'bootstrap-sass', '~> 3.3.6'
